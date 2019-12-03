@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="row list-header">
+    <div class="col-2">Date</div>
+    <div class="col-2">Amount</div>
+    <div class="col-6">Contact Id</div>
+    <div class="col-2">Status</div>
+  </div>
+  <app-list-item *ngFor="let payment of payments" [payment]="payment"></app-list-item>
+</div>
